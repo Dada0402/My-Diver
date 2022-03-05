@@ -1,0 +1,12 @@
+/*ĐĂNG KÝ SCREEN*/
+body.background{
+   
+    background-image: url("backg.png"); 
+    text-align: center;
+    padding: 100px 0px;
+    }
+
+    a{
+        text-decoration: none;
+        font-family: "Montserrat";
+    }

@@ -1,0 +1,275 @@
+/** Reset **/
+html, body, div, span, applet, object, iframe,
+ blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    /*font: inherit;*/
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    /*line-height: 1;*/
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/** Structure **/
+.row{
+    display: flex ;flex-wrap: wrap;
+}
+.col {
+	flex: 1 1 0;
+}
+.col-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+}
+
+.col-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+}
+
+.col-3 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.col-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.col-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+}
+
+.col-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+}
+
+.col-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+}
+
+.col-9 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+}
+
+.col-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+}
+
+.col-12 {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+
+
+.container-fluid {
+	width: 100%;
+}
+
+/** Customize **/
+
+
+.col{display: flex;}
+
+ 
+header{background-color:#5C4487 ;}
+
+header a{text-decoration: none;font-family: "Montserrat";font-size: 25px;color: white;padding: 20px;font-weight: bold;
+
+}
+header ul{margin: 30px;justify-content: center;}
+
+
+.banner{width: 100%;height: 810px;}
+
+main h3{font-family: "Montserrat";font-size: 32px;color: #1246AF;padding: 0px;font-weight: bold;}
+main h4{font-family: "Montserrat";font-size: 27px;color: #4A148C;padding: 0px;font-weight: bold;font-style: italic;}
+
+main li{font-family: "Montserrat";font-size: 26px;padding: 20px;display:inline-block;
+    font-weight: bold;background-color: #2F80ED;
+
+}
+main a{text-decoration: none;font-family: "Montserrat";color: white;background-color: #3784ED;
+      font-size: 28px;font-weight: bold;padding: 20px;
+      border-radius: 20px;
+  }
+main a:hover{background-color: #4A148C;}
+
+.container-main1{width: 1200px;margin: auto;
+
+}
+.photo{width: 100%;}
+.video{width: 100%;height:400px;padding: 0px 0px 0px 70px;}
+img.check{width: 26px;height: auto;padding: 0px;text-align: left;}
+.p1{font-family: "Montserrat";font-size: 27px;color: #4A148C;padding: 0px;font-weight: normal;text-align: justify;}
+.p2{text-decoration: none;font-family: "Montserrat";font-size: 26px;color: #1246AF;
+    margin: 0px 0px 20px 40px;}
+.row1-2{margin: 40px;display: inline-block;}
+
+  /*bi tach lam 2 container vi ko hieu ly do tai sao den doan nay tag row bi loi*/
+
+h1{font-family: "Montserrat";font-size: 50px;color:#45070B;font-weight: bold;margin: 40px 0px 10px 0px;}
+h2{font-family: "Montserrat";font-size: 35px;color:#45070B;font-weight: bold;margin: 0px 0px 30px 0px;}
+img.a{margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 50%;
+}
+a.p3{font-size: 26px;
+    background-color: #1246AF;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+main h5{font-family: "Montserrat";font-size: 38px;color:#7D1212;font-weight: bold;
+        margin-right: auto;
+        margin-left: auto;
+
+
+}
+p.p4{font-family: "Montserrat";font-size: 30px;color: #45070B;text-align: center;font-weight: bold;
+        margin: 15px 0px 0px 0px;
+
+
+}
+p.p5{font-family: "Montserrat";font-size: 28px;color: #1246AF;text-align: center;padding: 55px 20px 20px 20px;
+    margin: 10px 0px 0px 20px;
+}
+p.p6{font-family: "Montserrat";font-size: 28px;color: #1246AF;text-align: center;padding: 20px;
+    margin: 10px 0px 0px 20px;
+}
+.center{text-align: center;}
+/*text-align-> canh cho all phan tu con, cháu....
+  justify-content--> canh cho flex
+  align-items--> canh theo chieu doc
+*/
+h5.b{margin: 50px 0px 0px 0px;}
+p.p7{font-family: "Montserrat";font-size: 28px;color: #1246AF;
+ margin: 10px 0px 40px 0px;
+}
+a.c{font-family: "Montserrat";font-size: 35px;color: white;font-weight: bold;
+    padding: 20px 90px;margin: 40px 20px;
+
+}
+.justify{justify-content: space-around;}
+p.p8{font-family: "Montserrat";font-size: 28px;color: #1246AF;text-align: justify;}
+.center1{align-content: center;}
+p.p9{font-family: "Montserrat";font-size: 30px;color: #45070B;font-weight: bold;
+
+}
+p.p10{font-family: "Montserrat";font-size: 23px;color: #1246AF;font-weight: normal; padding: 0px 20px;
+
+}
+h5.resize{font-size: 32px;text-align: left;margin: 0px 0px 20px 40px;}
+p.p11{text-align: left;color: #1246AF;font-size: 26px;font-weight: normal;margin: 0px 0px 10px 40px;font-family: "Montserrat";
+
+}
+main h5.d{color: #3784ED;margin: 40px 20px;}
+main h5.e{color: #7D1212;font-weight: 500;}
+main h5.f{margin: 40px 20px 0px 20px;}
+a.d{background-color: #7D1212;
+}
+Img.photo1{width: 50%;padding: 0px 0px 30px 0px;}
+
+
+/*tao Form*/
+
+.container-main2{width: 1000px;height: 300px; 
+                 margin: auto;background-color: #234589;
+                  }
+.border{ border: 2px solid white;
+         border-radius: 5px;padding: 10px;margin: 30px;
+
+}
+.bg{background-color: #464C75;border-style:outset;border-radius: 8px;
+    border: 1px solid black;padding: 20px;color: white;font-family: "Montserrat";font-size: 20px;
+     }
+.container-main3{width: 1200px;height: 100px;margin: auto;
+
+}
+input{width: 50%;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
